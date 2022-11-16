@@ -1,0 +1,34 @@
+:root{
+    --color-primary:#9356DC;
+    --color-secondary:#FF79DA;
+    --color-tertiary:#99E2D0;
+}
+body {
+    margin: 0;
+    font-family: Raleway;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  .bouton {
+    text-align: center;
+  }
+  .bouton a {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    background:linear-gradient(
+        -10deg,
+        var(--color-primary) 0%,
+        var(--color-secondary) 80% 
+        );
+    box-shadow: 0 5px 5px 0 lightgray;   
+  }

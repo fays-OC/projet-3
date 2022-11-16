@@ -3,8 +3,77 @@
 }
 #logo img {
     width: 200px;
+    padding: 20px;
+}
+.reservation {
+    text-align: center;
 }
 .location {
-    background-color: gray;
-    border: 1px solid gray;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid rgb(232, 232, 232);
+    padding: 20px;
+}
+.bouton {
+    padding: 20px;
+}
+.titres {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+.fonctionnement a {
+    text-decoration: none;
+}
+.choix {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 5px 2px rgb(232, 232, 232);
+    margin: 20px;
+    color: black;
+}
+.choix i {
+    color: gray;
+}
+.chiffre {
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+    background-color: var(--color-primary);
+    padding: 10px;
+    margin-left: -35px;
+}
+.restaurants {
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+}
+.restaurants a {
+    text-decoration: none;
+    color: black;
+}
+.resto {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 15px 0 rgb(232, 232, 232);
+    border-radius: 15px;
+    margin: 20px 0;
+    background-color: white;
+}
+.resto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.pied {
+    background-color: rgb(66, 63, 63);
+    color: white;
+    padding: 20px;
+}
+.pied a {
+    text-decoration: none;
+    color: white;
 }
