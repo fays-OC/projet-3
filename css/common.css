@@ -32,3 +32,31 @@ body {
         );
     box-shadow: 0 5px 5px 0 lightgray;   
   }
+a {
+  text-decoration: none;
+}
+.heart-hover {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.fa-heart .on {
+  display: none;
+}
+.heart-hover:hover .fa-heart .on {
+  display: block;
+}
+.heart-hover:hover .fa-heart .off {
+  display: none;
+}
+.fa-heart {
+  background: linear-gradient(to bottom, var(--color-primary) 0%,var(--color-secondary) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+main > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}

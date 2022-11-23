@@ -44,7 +44,9 @@
     border-radius: 100%;
     background-color: var(--color-primary);
     padding: 10px;
-    margin-left: -35px;
+    margin-left: -40px;
+    width: 40px;
+    height: 40px;
 }
 .restaurants {
     padding: 20px;
@@ -55,6 +57,7 @@
     color: black;
 }
 .resto {
+    position: relative;
     display: block;
     width: 100%;
     box-shadow: 0 0 15px 0 rgb(232, 232, 232);
@@ -76,4 +79,16 @@
 .pied a {
     text-decoration: none;
     color: white;
+}
+.nouveau strong {
+    background-color: var(--color-tretiary);
+    color: var(--color-tretiary-dark);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+}
+.details {
+    position: relative;
+    padding: 0 10px;
 }
