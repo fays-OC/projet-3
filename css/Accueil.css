@@ -5,6 +5,9 @@
     width: 200px;
     padding: 20px;
 }
+.fonctionnement {
+    margin-left: 20px;
+}
 .reservation {
     text-align: center;
 }
@@ -71,24 +74,19 @@
     object-fit: cover;
     border-radius: 15px 15px 0 0;
 }
-.pied {
-    background-color: rgb(66, 63, 63);
-    color: white;
-    padding: 20px;
-}
-.pied a {
-    text-decoration: none;
-    color: white;
-}
 .nouveau strong {
-    background-color: var(--color-tretiary);
-    color: var(--color-tretiary-dark);
+    background-color: var(--color-tertiary);
+    color: var(--color-tertiary-dark);
     position: absolute;
     top: 10px;
     right: 10px;
     padding: 5px;
+    border-radius: 2px;
 }
 .details {
     position: relative;
-    padding: 0 10px;
+    padding: 10px;
+}
+.details p {
+    margin: 8px;
 }
