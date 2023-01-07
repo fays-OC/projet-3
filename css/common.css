@@ -7,7 +7,7 @@
 }
 body {
     margin: 0;
-    font-family: Raleway;
+    font-family: Roboto;
   }
   html {
     box-sizing: border-box;
@@ -19,9 +19,11 @@ body {
     box-sizing: inherit;
   }
   .bouton {
+    padding: 10px;
     text-align: center;
   }
   .bouton a {
+    display: inline-block;
     text-decoration: none;
     background-color: var(--color-primary);
     color: white;
@@ -72,3 +74,29 @@ footer a {
   text-decoration: none;
   color: white;
 }
+.carte {
+  overflow: hidden ;
+  }
+  
+  .carte .check {
+  width: 50px;
+  text-align: center;
+  background-color: var(--color-tertiary);
+  color: white;
+  margin-right: -50px;
+  transition: margin-right 1s;
+  }
+  
+  .carte:hover .check {
+  margin-right: 0;
+  transition: margin-right 1s;
+  }
+  
+  .carte .fa-circle-check {
+  margin-top: 40px;
+  }
+  
+  .carte:hover .fa-circle-check {
+  transform: rotate(360deg);
+  transition: transform 1s;
+  }
