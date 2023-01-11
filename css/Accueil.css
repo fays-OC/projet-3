@@ -87,3 +87,18 @@
 .details p {
     margin: 8px;
 }
+@media screen and (min-width: 768px) {
+    .steps {
+    display: flex; 
+    justify-content: space-evenly;
+    }
+    
+    .resto-list {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    }
+    .resto-list>a {
+    width: 49%;
+    }
+    }

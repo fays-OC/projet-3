@@ -73,3 +73,53 @@ main p {
     background-color: white;
     margin: 20px;
 }
+.carte {
+    overflow: hidden ;
+    }
+    
+    .carte .check {
+    width: 50px;
+    text-align: center;
+    background-color: var(--color-tertiary);
+    color: white;
+    margin-right: -50px;
+    transition: margin-right 1s;
+    }
+    
+    .carte:hover .check {
+    margin-right: 0;
+    transition: margin-right 1s;
+    }
+    
+    .carte .fa-circle-check {
+    margin-top: 40px;
+    }
+    
+    .carte:hover .fa-circle-check {
+    transform: rotate(360deg);
+    transition: transform 1s;
+    }
+    .carte .plat {
+        width: 100%;
+        transition: width 1s;
+        }
+        
+        .carte:hover .plat {
+        width: calc(100% - 50px);
+        }
+        
+        .plat span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+    @media screen and (min-width: 768px) {
+        .all-plat-type {
+        display: flex;
+        justify-content: space-evenly;
+        }
+        
+        .plat-type {
+        width: 30%;
+        }
+        }
