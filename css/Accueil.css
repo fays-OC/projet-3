@@ -1,28 +1,35 @@
 #logo {
     text-align: center;
 }
+
 #logo img {
     width: 200px;
     padding: 20px;
 }
+
 .fonctionnement {
     margin-left: 20px;
 }
+
 .reservation {
     text-align: center;
 }
+
 .location {
     background-color: rgb(232, 232, 232);
     border: 1px solid rgb(232, 232, 232);
     padding: 20px;
 }
+
 .titres {
     background-color: rgb(245, 245, 245);
     padding: 20px;
 }
+
 .fonctionnement a {
     text-decoration: none;
 }
+
 .choix {
     display: flex;
     align-items: center;
@@ -35,9 +42,11 @@
     margin: 20px;
     color: black;
 }
+
 .choix i {
     color: gray;
 }
+
 .chiffre {
     text-align: center;
     color: white;
@@ -48,14 +57,17 @@
     width: 40px;
     height: 40px;
 }
+
 .restaurants {
     padding: 20px;
     background-color: rgb(245, 245, 245);
 }
+
 .restaurants a {
     text-decoration: none;
     color: black;
 }
+
 .resto {
     position: relative;
     display: block;
@@ -65,12 +77,14 @@
     margin: 20px 0;
     background-color: white;
 }
+
 .resto img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
 }
+
 .nouveau strong {
     background-color: var(--color-tertiary);
     color: var(--color-tertiary-dark);
@@ -80,25 +94,29 @@
     padding: 5px;
     border-radius: 2px;
 }
+
 .details {
     position: relative;
     padding: 10px;
 }
+
 .details p {
     margin: 8px;
 }
+
 @media screen and (min-width: 768px) {
     .steps {
-    display: flex; 
-    justify-content: space-evenly;
+        display: flex;
+        justify-content: space-evenly;
     }
-    
+
     .resto-list {
-    display: flex; 
-    justify-content: space-between;
-    flex-wrap: wrap; 
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
+
     .resto-list>a {
-    width: 49%;
+        width: 49%;
     }
-    }
+}

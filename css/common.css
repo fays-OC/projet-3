@@ -1,75 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
-:root{
-    --color-primary:#9356DC;
-    --color-secondary:#FF79DA;
-    --color-tertiary:#99E2D0;
-    --color-tertiary-dark: #4b7268;
+
+:root {
+  --color-primary: #9356DC;
+  --color-secondary: #FF79DA;
+  --color-tertiary: #99E2D0;
+  --color-tertiary-dark: #4b7268;
 }
+
 body {
-    margin: 0;
-    font-family: Roboto;
-  }
-  html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  .bouton {
-    padding: 10px;
-    text-align: center;
-  }
-  .bouton a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: var(--color-primary);
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
-    background:linear-gradient(
-        -10deg,
-        var(--color-primary) 0%,
-        var(--color-secondary) 80% 
-        );
-    box-shadow: 0 5px 5px 0 lightgray;   
-  }
+  margin: 0;
+  font-family: Roboto;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.bouton {
+  padding: 10px;
+  text-align: center;
+}
+
+.bouton a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(-10deg,
+      var(--color-primary) 0%,
+      var(--color-secondary) 80%);
+  box-shadow: 0 5px 5px 0 lightgray;
+}
+
 a {
   text-decoration: none;
   color: black;
 }
+
 .heart-hover {
   position: absolute;
   top: 18px;
   right: 10px;
 }
+
 .fa-heart.on {
   display: none;
 }
+
 .heart-hover:hover .fa-heart.on {
   display: block;
 }
+
 .heart-hover:hover .fa-heart.off {
   display: none;
 }
+
 .fa-heart {
-  background: linear-gradient(to bottom, var(--color-primary) 0%,var(--color-secondary) 100%);
+  background: linear-gradient(to bottom, var(--color-primary) 0%, var(--color-secondary) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-main > img {
+
+main>img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
+
 footer {
   background-color: rgb(66, 63, 63);
   color: white;
   padding: 20px;
 }
+
 footer a {
   text-decoration: none;
   color: white;
