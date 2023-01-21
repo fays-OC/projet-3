@@ -45,30 +45,42 @@ a {
   color: black;
 }
 
-.heart-hover {
+.coeur {
+  font-size: x-large;
+  position: relative;
+  margin-right: 40px;
+  }
+  
+  .coeur:hover {
+  cursor: pointer;
+  }
+  
+  .coeur:hover .fa-heart.on {
+  opacity: 1;
+  transition: opacity 2.5s;
+  }
+  
+  .fa-heart.on {
+  opacity: 0;
+  }
+  
+  .coeur:hover .fa-heart.on {
+  opacity: 1;
+  transition: opacity 2.5s;
+  }
+  
+  .coeur:hover .fa-heart.off {
+  opacity: 0;
+  transition: opacity 1s;
+  }
+  
+  .fa-heart {
   position: absolute;
-  top: 18px;
-  right: 10px;
-}
-
-.fa-heart.on {
-  display: none;
-}
-
-.heart-hover:hover .fa-heart.on {
-  display: block;
-}
-
-.heart-hover:hover .fa-heart.off {
-  display: none;
-}
-
-.fa-heart {
   background: linear-gradient(to bottom, var(--color-primary) 0%, var(--color-secondary) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
+  }
 
 main>img {
   width: 100%;

@@ -1,3 +1,12 @@
+.cercle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 50px;
+    animation: spin 1s linear 0s infinite, hide 1s ease 2s forwards        
+}
+
 #logo {
     text-align: center;
 }
@@ -41,6 +50,9 @@
     box-shadow: 0 5px 5px 2px rgb(232, 232, 232);
     margin: 20px;
     color: black;
+}
+.choix:hover {
+    background-color: #eae2f7;
 }
 
 .choix i {

@@ -35,29 +35,6 @@ section {
     background-color: rgb(245, 245, 245);
 }
 
-.coeur {
-    font-size: x-large;
-}
-
-.fa-heart.on {
-    display: none;
-}
-
-.coeur:hover .fa-heart.on {
-    display: block;
-}
-
-.coeur:hover .fa-heart.off {
-    display: none;
-}
-
-.fa-heart {
-    background: linear-gradient(to bottom, var(--color-primary) 0%, var(--color-secondary) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
 h3 {
     margin-bottom: 0;
     padding: 0 20px;
