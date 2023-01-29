@@ -4,8 +4,19 @@
     left: 50%;
     text-align: center;
     font-size: 50px;
-    animation: spin 1s linear 0s infinite, hide 1s ease 2s forwards        
+    animation: spinner 1s linear 0s infinite, hide 0s linear 2s forwards;
+    color: var(--color-primary);  
 }
+@keyframes hide {
+    to {
+        opacity: 0;
+    }
+}
+@keyframes spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 #logo {
     text-align: center;
@@ -52,7 +63,7 @@
     color: black;
 }
 .choix:hover {
-    background-color: #eae2f7;
+    background-color: #e8ddf6;
 }
 
 .choix i {

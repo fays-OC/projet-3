@@ -55,6 +55,15 @@ main p {
 
 .plat {
     width: 100%;
+    animation: fadein 3s;
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
 
 .carte {
