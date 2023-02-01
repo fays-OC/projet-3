@@ -138,6 +138,10 @@ body> :not(.cercle) {
     justify-content: space-between;
 }
 
+.coeur {
+    top: 20px;
+}
+
 .details p {
     margin: 8px;
 }

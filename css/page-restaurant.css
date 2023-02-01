@@ -57,7 +57,11 @@ main p {
     width: 100%;
 }
 
-@-webkit-keyframes fadein {
+.plat>p>strong {
+    margin-right: 20px;
+}
+
+@keyframes fadein {
     from {
         opacity: 0;
     }
