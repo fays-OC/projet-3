@@ -4,19 +4,32 @@
     left: 50%;
     text-align: center;
     font-size: 50px;
-    animation: spinner 1s linear 0s infinite, hide 0s linear 2s forwards;
-    color: var(--color-primary);  
+    animation: spinner 1s linear 0s infinite, hide 0s linear 1s forwards;
+    color: var(--color-primary);
 }
+
 @keyframes hide {
     to {
         opacity: 0;
     }
 }
+
 @keyframes spinner {
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
+
+body> :not(.cercle) {
+    opacity: 0;
+    animation: show 0s linear 1s forwards;
+}
+
+@keyframes show {
+    to {
+        opacity: 1;
+    }
+}
 
 #logo {
     text-align: center;
@@ -62,6 +75,7 @@
     margin: 20px;
     color: black;
 }
+
 .choix:hover {
     background-color: #e8ddf6;
 }
@@ -119,8 +133,9 @@
 }
 
 .details {
-    position: relative;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .details p {

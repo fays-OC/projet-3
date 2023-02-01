@@ -49,38 +49,38 @@ a {
   font-size: x-large;
   position: relative;
   margin-right: 40px;
-  }
-  
-  .coeur:hover {
+}
+
+.coeur:hover {
   cursor: pointer;
-  }
-  
-  .coeur:hover .fa-heart.on {
+}
+
+.coeur:hover .fa-heart.on {
   opacity: 1;
   transition: opacity 2.5s;
-  }
-  
-  .fa-heart.on {
+}
+
+.fa-heart.on {
   opacity: 0;
-  }
-  
-  .coeur:hover .fa-heart.on {
+}
+
+.coeur:hover .fa-heart.on {
   opacity: 1;
   transition: opacity 2.5s;
-  }
-  
-  .coeur:hover .fa-heart.off {
+}
+
+.coeur:hover .fa-heart.off {
   opacity: 0;
   transition: opacity 1s;
-  }
-  
-  .fa-heart {
+}
+
+.fa-heart {
   position: absolute;
   background: linear-gradient(to bottom, var(--color-primary) 0%, var(--color-secondary) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  }
+}
 
 main>img {
   width: 100%;
