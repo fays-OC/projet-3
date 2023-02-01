@@ -91,6 +91,10 @@ main p {
     animation-delay: 2s;
 }
 
+.carte:nth-child(5) {
+    animation-delay: 2.5s;
+}
+
 .carte {
     overflow: hidden;
 }
